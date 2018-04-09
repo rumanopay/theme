@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Infographic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="27" height="20" rx="1.7"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Infographic">
+            <g id="Group-4" transform="translate(11.000000, 15.000000)">
+                <g id="Group-3">
+                    <g id="Group-2">
+                        <g id="Rectangle-7">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#2F2F2F" stroke-width="1" x="0.5" y="0.5" width="26" height="19" rx="1.7"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-2" transform="translate(5.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Group" transform="translate(0.000000, 5.000000)" fill="#A1A19F">
+                            <polygon id="Rectangle-path" points="9.27990123 4.23017833 11.9193086 4.23017833 11.9193086 9.29700735 9.27990123 9.29700735"></polygon>
+                            <polygon id="Rectangle-path" points="0.260246914 5.39380789 2.89965432 5.39380789 2.89965432 9.29700735 0.260246914 9.29700735"></polygon>
+                            <polygon id="Rectangle-path" points="4.76671605 3.46169098 7.40612346 3.46169098 7.40612346 9.29085945 4.76671605 9.29085945"></polygon>
+                            <polygon id="Rectangle-path" points="13.7863704 0.443072702 16.4257778 0.443072702 16.4257778 9.29700735 13.7863704 9.29700735"></polygon>
+                        </g>
+                        <polygon id="Shape" fill="#2F2F2F" points="10.0826823 6.51560089 5.53318114 1.72466524 1.17780273 6.11944475 0.658864031 5.59581145 5.57024819 0.639996259 10.1197493 5.4309319 14.4330434 1.20103194 14.9519821 1.72466524"></polygon>
+                        <ellipse id="Oval" fill="#F42684" cx="1.31146754" cy="5.68739993" rx="1.31146754" ry="1.27999252"></ellipse>
+                        <ellipse id="Oval" fill="#F42684" cx="5.71887495" cy="1.27999252" rx="1.31146754" ry="1.27999252"></ellipse>
+                        <ellipse id="Oval" fill="#F42684" cx="10.1262824" cy="5.68739993" rx="1.31146754" ry="1.27999252"></ellipse>
+                        <ellipse id="Oval" fill="#F42684" cx="15.1633194" cy="1.27999252" rx="1.31146754" ry="1.27999252"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Downloads in Media</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="25" height="21" rx="1.7"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Downloads-in-Media">
+            <g id="Group-2" transform="translate(12.000000, 14.000000)">
+                <g id="Rectangle-7">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#2F2F2F" stroke-width="1" x="0.5" y="0.5" width="24" height="20" rx="1.7"></rect>
+                </g>
+            </g>
+            <path d="M28.96875,26.9384615 L31,26.9384615 L31,29.8923077 C31,30.5040693 30.454347,31 29.78125,31 L19.21875,31 C18.545653,31 18,30.5040693 18,29.8923077 L18,26.9384615 L20.03125,26.9384615 L20.03125,29.1538462 L28.96875,29.1538462 L28.96875,26.9384615 Z M23.28125,19 L23.28125,23.8 L21.6664062,23.8 C21.5829869,23.7921116 21.5028104,23.8316321 21.4645849,23.8994816 C21.4263595,23.9673311 21.4379457,24.0495569 21.49375,24.1064615 L24.2623437,27.5661538 C24.3177257,27.6357651 24.4064997,27.676991 24.5010156,27.676991 C24.5955315,27.676991 24.6843056,27.6357651 24.7396875,27.5661538 L27.5042187,24.1101538 C27.560023,24.0532492 27.5716093,23.9710234 27.5333838,23.9031739 C27.4951583,23.8353245 27.4149819,23.7958039 27.3315625,23.8036923 L25.71875,23.8036923 L25.71875,19.0036923 L23.28125,19 Z" id="Shape" fill="#F42684" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

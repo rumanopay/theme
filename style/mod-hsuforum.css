@@ -1,0 +1,304 @@
+/* -------------------------------------------*\
+  Legend theme
+
+  @package    theme_legend
+  @copyright  2017 GetSmarter {@link http://www.getsmarter.co.za}
+  @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+  Contents
+    * Advanced forum
+
+\* -------------------------------------------*/
+
+/* -------------------------------------------*\
+ * Advanced forum
+\* -------------------------------------------*/
+
+#page-mod-hsuforum-discuss .userpicture-flag, #page-mod-hsuforum-view .userpicture-flag {
+  margin-left: 0;
+}
+
+.hsuforum-thread-title {
+  float: left;
+}
+
+.hsuforum-thread header .actions {
+  padding-left: 18%;
+}
+
+.hsuforum-parent-post-link {
+  margin: 3px 7px 0px 0px;
+  background-color: #ddd;
+}
+
+.hsuforum-parent-post-link:hover {
+  background-color: [[setting:themecolor]];
+}
+
+.hsuforum-thread-author {
+  float: left;
+  margin-right: 2% !important;
+  width: 14% !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+}
+
+.hsuforum-thread-author .userpicture {
+  max-width: 60px;
+  margin-top: 10px;
+}
+
+.hsuforum-thread-header-right {
+  float: right;
+  width: 84%;
+}
+
+.hsuforum-post-figure {
+  padding: 0;
+}
+
+.hsuforum-post-figure .userpicture {
+  max-width: 47px;
+}
+
+.hsuforum-thread-participants {
+  display: none;
+}
+
+.hsuforum-post-byline {
+  font-size: 11px;
+}
+
+.hsuforum-post-content .hsuforum-post-title {
+  font-size: 10px;
+}
+
+.hsuforum-post-content .posting {
+  padding: 7px 0px 0px 0px;
+}
+
+.hsuforum-tools {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.hsuforum-reply-link.btn.btn-default {
+  font-size: 11px;
+  font-weight: 400;
+  color: #00acdf;
+  background: #fff;
+  vertical-align: baseline;
+  padding: 0 0.2em 0 0;
+}
+
+.hsuforum-reply-link.btn.btn-default:hover {
+  filter: unset !important;
+  color: #007193;
+  text-decoration: underline;
+}
+
+.hsuforum-post:before {
+  background-color: transparent;
+  color: #ddd;
+  font-size: 11px;
+  top: 2px;
+  left: 0px;
+  margin-left: 8px;
+  width: auto;
+  text-align: left;
+}
+
+.hsuforum-post:hover:before {
+  background-color: transparent;
+  color: #717171;
+}
+
+.hsuforum-post-byline {
+  color: #717171;
+}
+
+.hsuforum-thread-replies h5 {
+  color: #717171;
+  margin: 9px 0 18px 0;
+}
+
+.hsuforum-post-wrapper {
+  padding: 14px 18px 0 0;
+  border: 1px solid #efefef;
+  margin-top: 5px;
+  background-color: #fff;
+  border-radius: 3px;
+  border-left: 1px solid #ddd;
+}
+
+.hsuforum-post-wrapper.student.loggedinuser {
+  border-left: 3px solid #bbbbbb;
+}
+
+.hsuforum-post-wrapper.teacher, .hsuforum-post-wrapper.support, .hsuforum-post-wrapper.headtutor, .hsuforum-post-wrapper.tutor, .hsuforum-post-wrapper.externalexaminer, .hsuforum-post-wrapper.courseconvener {
+  border-left: 3px solid [[setting:themecolor]];
+}
+
+.hsuforum-post-wrapper.coursecoach, .hsuforum-post-wrapper.editingteacher {
+  border-left: 3px solid #f42684;
+}
+
+.hsuforum-post-wrapper:focus {
+  outline: 5px auto [[setting:themecolor]];
+  outline-offset: -3px;
+}
+
+.hsuforum-post[data-depth="1"] .hsuforum-post-wrapper {
+  margin-left: 6%;
+}
+
+.hsuforum-post[data-depth="1"]:before {
+  left: 6%;
+}
+
+.hsuforum-post[data-depth="2"] .hsuforum-post-wrapper {
+  margin-left: 12%;
+}
+
+.hsuforum-post[data-depth="2"]:before {
+  left: 12%;
+}
+
+.hsuforum-post[data-depth="3"] .hsuforum-post-wrapper {
+  margin-left: 18%;
+}
+
+.hsuforum-post[data-depth="3"]:before {
+  left: 18%;
+}
+
+.hsuforum-post[data-depth="4"] .hsuforum-post-wrapper {
+  margin-left: 24%;
+}
+
+.hsuforum-post[data-depth="4"]:before {
+  left: 24%;
+}
+
+.hsuforum-post[data-depth="5"] .hsuforum-post-wrapper {
+  margin-left: 30%;
+}
+
+.hsuforum-post[data-depth="5"]:before {
+  left: 30%;
+}
+
+.hsuforum-post[data-depth="6"] .hsuforum-post-wrapper {
+  margin-left: 36%;
+}
+
+.hsuforum-post[data-depth="6"]:before {
+  left: 36%;
+}
+
+a.hsuforum-use-advanced-form {
+  display: none;
+}
+
+.hsuforum-thread-body {
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.hsuforum-unreadcount {
+  background-color: #fdbf46;
+  line-height: normal;
+  padding: 3px 10px;
+  margin-top: -7px;
+  margin-left: 0;
+}
+
+.hsuforum-thread, .hsuforum-thread-replies {
+  padding: 0;
+}
+
+#page-mod-hsuforum-view #region-main{
+  padding:0px !important;
+}
+
+.hsuforum-unreadcount {
+    margin-left: 5px;
+}
+
+.forum-post-rating {
+  display: none;
+}
+
+.hsuforum-reply-link.btn.btn-default {
+  color: [[setting:themeurlcolor]];
+}
+
+.hsuforum-thread-header-right.clearfix > .forum-post-rating {
+    margin-left: 24px;
+}
+
+.editor_atto_menu a > div {
+  margin-left: 4px;
+  margin-top: -20px;
+}
+
+li.atto_menuentry {
+  height: 25px;
+}
+
+aside[data-block="education_support_services"] a:hover {
+  font-size: inherit !important;
+  border: inherit !important;
+}
+
+@media (max-width: 320px) {
+  input#searchforums {
+    margin-top: 5px;
+    margin-left: -1px;
+  }
+}
+
+@media screen and (max-width: 35em) {
+  .hsuforum-post-wrapper {
+      padding-left: 18px;
+  }
+
+  .hsuforum-thread header .actions {
+    padding-left: 0;
+  }
+
+  .hsuforum-thread-author {
+    float: none;
+    width: 100% !important;
+  }
+
+  .hsuforum-thread-header-right {
+    float: none;
+    width: 100%;
+  }
+
+  .hsuforum-post-byline{
+    margin-left: 55px !important;
+  }
+
+  .hsuforum-unreadcount {
+    margin-top: 0;
+  }
+
+  .hsuforum-search {
+    float: left !important;
+  }
+
+  .hsuforum-filter-options {
+    float: left;
+  }
+
+  .hsuforum-thread-author {
+    float: left;
+  }
+
+  .hsuforum-search {
+    width:100%;
+    margin-bottom: -10px;
+  }
+}

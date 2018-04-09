@@ -1,0 +1,34 @@
+/* -------------------------------------------*\
+  Legend theme
+
+  @package    theme_legend
+  @copyright  2017 GetSmarter {@link http://www.getsmarter.co.za}
+  @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+/* -------------------------------------------*\
+ * Blocks
+\* -------------------------------------------*/
+
+#region-main-settings-menu.has-blocks,
+#region-main.has-blocks {
+    display: inline-block;
+    width: calc(100% - 300px);
+}
+
+[data-region="blocks-column"] {
+    width: 280px !important;
+}
+
+.block_teaching_team .user_profile .user_picture .user_image {
+    height: auto !important;
+}
+
+@media (max-width: 991px){
+  [data-region="blocks-column"] {
+    width: 100% !important;
+  }
+  #region-main-settings-menu.has-blocks,
+  #region-main.has-blocks {
+    display: inline-block;
+    width: 100% !important;
+  }
+}

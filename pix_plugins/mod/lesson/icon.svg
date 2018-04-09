@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Lesson</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="22" rx="1.7"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lesson">
+            <g id="Group-3" transform="translate(10.000000, 14.000000)">
+                <g id="Group-2">
+                    <g id="Rectangle-7">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#2F2F2F" stroke-width="1" x="0.5" y="0.5" width="29" height="21" rx="1.7"></rect>
+                    </g>
+                    <g id="Group" transform="translate(6.562500, 4.583333)">
+                        <polygon id="Triangle-2" stroke="#828282" fill="#E4E4E4" points="8.09490798 0.221574519 16.189816 12.7144888 0 12.7144888"></polygon>
+                        <ellipse id="Oval" stroke="#F42684" stroke-width="0.85" fill="#F42684" cx="13.342803" cy="5.07692308" rx="4.09090909" ry="4.15384615"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

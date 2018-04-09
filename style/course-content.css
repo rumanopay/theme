@@ -1,0 +1,107 @@
+/* -------------------------------------------*\
+  Legend theme
+
+  @package    theme_legend
+  @copyright  2017 GetSmarter {@link http://www.getsmarter.co.za}
+  @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+  Contents
+    * Course page
+    * Module page
+
+/* -------------------------------------------*\
+ * Course page
+\* -------------------------------------------*/
+.section .activity .activityinstance > a {
+  display: table;
+  float: left;
+}
+
+.section .activity .activityinstance > .unread {
+  position: absolute;
+  top: 17px;
+  border-radius: 3px;
+  padding: 0px 5px;
+}
+
+.section .activity .contentafterlink {
+  display: inline-block;
+  position: relative;
+  left: 34px;
+  top: -14px;
+}
+
+.section .activity .contentafterlink .unread {
+  border-radius: 3px;
+}
+
+.course-content .module-bracketed-word{
+  color:#0bb14e;
+}
+
+.section .activity .activityinstance .instancename {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+img.iconlarge {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  vertical-align: middle !important;
+}
+
+.section .activity .activityinstance .instancename .last-part {
+  white-space: nowrap;
+  color: #000000;
+}
+
+.section .activity .activityinstance .groupinglabel {
+  margin-top: 13px;
+  float: right !important;
+}
+
+.card .modified {
+  display: none !important;
+}
+
+.section .label .mod-indent-outer {
+  padding-left: 0 !important;
+}
+
+.single-section h3.sectionname {
+  text-align: left !important;
+  margin-left: 25px;
+}
+
+.availabilityinfo {
+  margin-left: 35px !important;
+}
+
+.activity img.activityicon {
+  margin-left: -31px;
+  margin-right: 15px;
+}
+
+.section .activity .contentwithoutlink>a, .section .activity .activityinstance>a {
+  text-indent: 0;
+}
+
+.course-content .single-section .section-navigation {
+    display: none;
+}
+
+.course-content ul.topics li.section .content {
+    margin-top: 25px;
+}
+@media only screen and (max-device-width: 412px) {
+  /* define mobile specific styles come here */
+  .section .activity .contentafterlink .unread {
+    position: relative;
+    bottom: 25px;
+  }
+}
+
+_::-webkit-full-page-media, _:future, :root .section .activity .contentafterlink {
+    top: -19px;
+}

@@ -1,0 +1,189 @@
+/* -------------------------------------------*\
+ * Header
+\* -------------------------------------------*/
+#page-header {
+  background: url('[[setting:headerbackground]]') no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  margin-bottom: -1px;
+  margin-top: 50px;
+  width: 100% !important;
+  border-bottom: 5px solid [[setting:themecolor]];
+}
+.breadcrumb-nav ul.breadcrumb li:after {
+    font-family: FontAwesome;
+    content: "\f138";
+    padding: 5px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #818a91;
+    font-family: FontAwesome !important;
+    content: "\f138" !important;
+}
+.no-url-formatting
+{ text-decoration: none !important;
+  color:inherit !important;
+  background-color: #eeeeee !important;
+}
+#page-header a.logo {
+  margin: 25px;
+}
+#page-header a.logo {
+    background-image: [[setting:logo]];
+    background-size: [[setting:logowidth]] [[setting:logoheight]];
+    height: [[setting:logoheight]];
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin: 25px;
+    width: 100%;
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+
+}
+.campus_logo_div a.logo {
+    background-image: [[setting:logo]];
+    height: 80px;
+    width: 80px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+#page-header h2#subtitle {
+    color: #fff;
+}
+#page-header h1#smalltitle {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #009ed7;
+}
+#page-header h2#subtitle {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 35px;
+    white-space: nowrap;
+    color: #fff;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.card-footer-sp-bg {
+       background-color: rgb(88, 84, 84, 0.2) !important;
+}
+.card-block-no-padding{
+      padding: 1px !important;
+}
+.card-footer a {
+    color: #818a91!important;
+    text-decoration: none;
+}
+.select-padding{
+  padding-bottom:10px !important;
+}
+.margin-top-lg{
+  margin-top: 10px;
+  color: #818a91!important;
+}
+.margin-left-sm{
+  margin-left: -20px;
+}
+.campus_logo_div h1.smalltitle {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card-footer-sp-bg i {
+  font-size: 25px;
+}
+.text-muted .fa-list {
+  position: relative;
+  top: 2px;
+}
+.breadcrumb {
+  color: [[setting:themecolor]];
+}
+.navbar-brand  span {
+  color: #fff;
+}
+.navbar-light .navbar-brand {
+  background-color: [[setting:themecolor]]
+}
+.no-link {
+  color: #3a3a3a;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active ,
+.navbar-light .navbar-nav .nav-link:hover:after,
+.navbar-light .navbar-nav .nav-link:active:after,
+.navbar-light .navbar-nav .nav-link:focus:after,
+.nav-link:focus {
+  color: inherit !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: inherit !important;
+}
+@media only screen and (max-width: 500px){
+  #page-header a.logo {
+    margin-top: 15px;
+    float: none !important;
+    width: inherit;
+    background-position: center center;
+    width: auto;
+  }
+  #page-header h2#subtitle {
+    font-size: 20px;
+    line-height: 25px;
+ }
+ #page-header h1#smalltitle {
+    font-size: 16px;
+    line-height: 0px;
+  }
+  #page-header {
+    background: #2f2f2f;
+    margin-top: 10px;
+  }
+  #page-header div.titlearea {
+    margin-left: 50px;
+  }
+  .campus_logo_div h1.smalltitle {
+    font-size: 17px;
+  }
+  .campus_logo_div h1.smalltitle {
+    white-space: normal;
+    margin-top: 5px;
+  }
+  .campus_logo_div a.logo {
+    float:none;
+    width: 100%;
+    background-position: center;
+  }
+  .campus_logo_div div.titlearea {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .card-footer-sp-bg {
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .campus_logo_div h1.smalltitle {
+    margin-top: 0 !important;
+  }
+}

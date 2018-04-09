@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Extrernal Tool</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="25" height="21" rx="1.7"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extrernal-Tool">
+            <g id="Group-2-Copy" transform="translate(12.000000, 14.000000)">
+                <g id="Rectangle-7">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#2F2F2F" stroke-width="1" x="0.5" y="0.5" width="24" height="20" rx="1.7"></rect>
+                </g>
+            </g>
+            <path d="M24.0546783,18.0006104 L26.4765496,20.2970441 L22.8437426,23.7417456 L25.265614,26.0381793 L28.898421,22.5934779 L31.3202923,24.8899116 L31.3202923,18 L24.0542714,18 L24.0546783,18.0006104 Z M19.2109357,19.1487764 C18.5400531,19.1487764 18,19.6609036 18,20.2969424 L18,29.4824739 C18,30.1186144 18.5400531,30.6306399 19.2109357,30.6306399 L28.898014,30.6306399 C29.5688457,30.6306399 30.1089497,30.1185127 30.1089497,29.4824739 L30.1089497,26.0377724 L28.8983192,24.8895047 L28.8983192,29.4823721 L19.2115461,29.4823721 L19.2115461,20.2968407 L24.0550852,20.2968407 L22.8439461,19.1485729 L19.2113426,19.1485729 L19.2109357,19.1487764 Z" id="Shape" fill="#F42684" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

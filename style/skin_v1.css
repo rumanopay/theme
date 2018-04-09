@@ -1,0 +1,2019 @@
+/* -------------------------------------------*\
+  Legend theme
+
+  @package    theme_legend
+  @copyright  2017 GetSmarter {@link http://www.getsmarter.co.za}
+  @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+  Contents
+    * Legend Theme Skin V1
+
+/* -------------------------------------------*\
+ * Legend Theme Skin V1
+\* -------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body {
+    background-color: [[setting:bodybackgroundcolour]] !important;
+}
+
+.card {
+    border: [[setting:cardborder]];
+    border-radius: [[setting:cardborderradius]];
+}
+
+.campus_logo_div .titlearea a,
+.campus_logo_div .titlearea a h1,
+.campus_logo_div .titlearea a h2,
+.campus_logo_div .titlearea a h3,
+.campus_logo_div .titlearea a h4,
+.campus_logo_div .titlearea a h5,
+.campus_logo_div .titlearea a h6,
+.card-title a,
+.course-content h3 a,
+.teaching_team .user_profile .user_details .detail a,
+#page-user-profile .userprofile a,
+a.video-helplink,
+.video-downloadlink a,
+#discussionsview a,
+.userpicture-additional a,
+#page-mod-assign-view #intro a,
+#page-mod-video-view .edit a,
+#page-calendar-view .calendar-controls .arrow_link a span,
+#page-calendar-view .calendar-controls .arrow_link .arrow,
+#page-calendar-view .calendar-controls .arrow_link .arrow_text,
+#page-course-user .grade-report-user a.gradeitemheader,
+#page-calendar-view .events-new a,
+#page-mod-questionnaire-view .box.generalbox.boxaligncenter.boxwidthwide a,
+#page-course-view-topics .userprofile a {
+    color: [[setting:linkcolour]];
+    font-weight: [[setting:linkfontweight]];
+    border-bottom: [[setting:linkborderbottom]];
+}
+
+.campus_logo_div .titlearea a:hover,
+.campus_logo_div .titlearea a h1:hover,
+.campus_logo_div .titlearea a h2:hover,
+.campus_logo_div .titlearea a h3:hover,
+.campus_logo_div .titlearea a h4:hover,
+.campus_logo_div .titlearea a h5:hover,
+.campus_logo_div .titlearea a h6:hover,
+.card-title a:hover,
+.course-content h3 a:hover,
+.teaching_team .user_profile .user_details .detail a:hover,
+#page-user-profile .userprofile a:hover,
+a.video-helplink:hover,
+.video-downloadlink a:hover,
+#discussionsview a:hover,
+.userpicture-additional a:hover,
+#page-mod-assign-view #intro a:hover,
+#page-mod-video-view .edit a:hover,
+.section-navigation span a:hover,
+#page-calendar-view .calendar-controls .arrow_link .arrow:hover,
+#page-calendar-view .calendar-controls .arrow_link .arrow_text:hover,
+.page-navbar .breadcrumb-nav .breadcrumb-item a:hover,
+#page-course-user .grade-report-user a.gradeitemheader:hover,
+#page-calendar-view .events-new a:hover,
+#page-mod-questionnaire-view .box.generalbox.boxaligncenter.boxwidthwide a:hover,
+#page-course-view-topics .userprofile a:hover {
+    color: [[setting:linkhovercolour]];
+    border-bottom-style: [[setting:linkhoverborderbottomstyle]] !important;
+    text-decoration: [[setting:linkhovertextdecoration]];
+    border-bottom-width: 1px !important;
+}
+
+.topics a:hover, .topics a>span:hover, .topics a>span:hover .last-part {
+    color: [[setting:linkhovercolour]];
+}
+
+.section-navigation span a {
+    color: [[setting:linkcolour]];
+    border-bottom: [[setting:linkborderbottom]];
+}
+
+.teaching_team .user_profile .user_details .detail a {
+    font-size: 14px;
+}
+
+.auto-width .card-title {
+    margin-top: 10px;
+}
+
+.auto-width .card-block {
+    padding-bottom: 0;
+}
+
+.auto-width .card-footer {
+    background-color: inherit;
+    border-top: none;
+}
+
+.summarytext p {
+    color: #8c8c8c;
+    margin-left: 8px;
+}
+
+h1, h2, h3, h4, h5, h6 , .main-heading{
+    color: #2f2f2f;
+    font-weight: normal;
+}
+
+.campus_logo_div .titlearea a h1,
+.campus_logo_div .titlearea a h2,
+.campus_logo_div .titlearea a h3,
+.campus_logo_div .titlearea a h4,
+.campus_logo_div .titlearea a h5,
+.campus_logo_div .titlearea a h6,
+.campus_logo_div .titlearea .main-heading {
+    font-size: 21px;
+    font-weight: normal;
+}
+
+ul.topics {
+    margin-top: -30px;
+}
+
+.course-content .section-summary {
+    border: none;
+}
+
+.navbar-light {
+    background-color: #2f2f2f;
+    border-bottom: 5px solid [[setting:themeheaderbordercolour]];
+    color: #fff;
+
+}
+
+#page-header {
+    border-bottom: none;
+}
+
+.popover-region-toggle::after {
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.userbutton, .dropdown-toggle::after, .userbutton span {
+    color: #fff;
+}
+
+.page-navbar .card {
+    border: none;
+    background-color: inherit;
+}
+
+h6.current_module {
+    margin-top: 25px;
+}
+
+.course-block-link {
+    display: inline;
+}
+
+.course-block-link, .course_block_footer i {
+    color: #2f2f2f;
+}
+
+.section-summary-activities.mdl-right {
+    display: none;
+}
+
+.block-region .card-title {
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+.btn.btn-link.p-a-0 {
+    background-color: inherit !important;
+    border: none;
+}
+
+img.user_image {
+    border-radius: 50%;
+}
+
+.block_teaching_team .user_profile {
+    background: inherit;
+    border-right: none;
+}
+
+.dropdown-menu.dropdown-menu-right, .popover-region-container {
+    background-color: #2f2f2f;
+}
+
+.usermenu .dropdown-menu.dropdown-menu-right,
+#page-mod-hsuforum-view .action-menu .dropdown-menu.dropdown-menu-right {
+    border: none;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+}
+
+.usermenu .dropdown-menu.dropdown-menu-right a,
+#page-mod-hsuforum-view .action-menu .dropdown-menu.dropdown-menu-right .dropdown-item {
+    padding: 12px 52px 12px 17px;
+    border-bottom: 1px solid #545454;
+}
+
+.usermenu .dropdown-menu.dropdown-menu-right a:last-of-type,
+#page-mod-hsuforum-view .action-menu .dropdown-menu.dropdown-menu-right .dropdown-item:last-of-type {
+    border-bottom: none;
+}
+
+.usermenu .dropdown-menu.dropdown-menu-right a:hover,
+#page-mod-hsuforum-view .action-menu .dropdown-menu.dropdown-menu-right .dropdown-item:hover,
+.usermenu .dropdown-menu.dropdown-menu-right a.dropdown-item:focus {
+    background-color: #545454 !important;
+}
+
+.dropdown-menu.dropdown-menu-right a, .dropdown-menu.dropdown-menu-right a span, .popover-region-header-text,
+.dropdown-menu.dropdown-menu-right .dropdown-item, .dropdown-menu.dropdown-menu-right .dropdown-item span {
+    color: #fff;
+}
+
+.usermenu .dropdown-menu,
+#page-mod-hsuforum-view .action-menu .dropdown-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.single-section h3.sectionname {
+    margin-left: 10px;
+    font-size: 21px;
+    font-weight: normal;
+    margin-bottom: 42px !important;
+}
+
+.activity .contentwithoutlink p {
+    margin-top: 15px;
+    color: #8c8c8c;
+}
+
+#page-content {
+    margin-top: 30px;
+}
+
+.course-content ul.topocs {
+    margin-top: -0.7rem;
+}
+
+.activityinstance span {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    background-color: inherit !important;
+    font-size: 14px !important;
+    margin-top: 2px;
+    padding-right: 0 !important;
+    padding-top: .35rem;
+}
+.navbar-brand > i {
+    font-size: 18px;
+}
+
+.breadcrumb {
+    padding: 0.75rem 0 0.5rem;
+}
+
+.auto-width .card-block {
+    padding: 2.6rem 3rem;
+    padding-bottom: 0;
+}
+
+#region-main > .card {
+    padding: 2.6rem 3rem;
+}
+
+.course-content ul.topics li.section {
+    padding-bottom: 7px !important;
+}
+
+li.breadcrumb-item a {
+    border-bottom: [[setting:linkborderbottom]];
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+li.breadcrumb-item a:hover {
+    color: [[setting:linkhovercolour]];
+    border-bottom-style: [[setting:linkhoverborderbottomstyle]];
+    text-decoration: [[setting:linkhovertextdecoration]];
+}
+
+.course-block-link:hover, .card-block .clearfix a:hover {
+    color: [[setting:linkhovercolour]];
+    border-bottom-style: [[setting:linkhoverborderbottomstyle]];
+    text-decoration: [[setting:linkhovertextdecoration]];
+}
+
+.hr_margin {
+    margin-left: 18px;
+    margin-bottom: 0;
+}
+
+li.breadcrumb-item.my_courses, .clearfix a {
+    color: #2f2f2f;
+}
+
+b, strong {
+    color: #8c8c8c;
+}
+
+.module_release_date {
+    color: #8c8c8c !important;
+}
+
+a.btn:hover, a.btn.active:hover, .button a:hover, input[type=submit]:hover,
+input[type=submit]:active, .breadcrumb-button a:not(.btn):hover {
+    background: #eee !important;
+    border-color: #bbb!important
+    color: #2f2f2f !important;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid #bbb;
+}
+
+button, input.form-submit, input[type=button], input[type=reset], input[type=submit] {
+    background: #ddd !important;
+    border-color: #bbb !important
+    color: #2f2f2f !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    font-size: 12px;
+
+}
+
+button:hover, input.form-submit:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+    border-color: #bbb!important
+    color: #2f2f2f !important;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #eee !important;
+}
+
+button:focus, input.form-submit:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
+    background: #eee !important;
+    border-color: #bbb !important
+    color: #2f2f2f !important;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+button:active, input.form-submit:active, input[type=button]:active, input[type=reset]:active, input[type=submit]:active {
+    background: #eee !important;
+    border-color: #bbb!important
+    color: #2f2f2f !important;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn-primary:focus, .btn-primary.focus, .btn-primary:active,
+.btn-primary.active, .btn-primary:active:focus,
+.btn-primary:active:hover  {
+    background: #eee !important;
+    border-color: #bbb!important
+    color: #2f2f2f !important;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.btn, .btn-primary, .btn-secondary, .btn-default {
+    background: #ddd !important;
+    color: #2f2f2f !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    font-size: 12px;
+}
+
+.btn-primary {
+    font-size: 14px;
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn-default:hover {
+    background: #eee !important;
+    border-color: #bbb!important
+    color: #2f2f2f !important;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.course_block_btn_div .btn-primary:hover {
+    font-size: 14px !important;
+}
+
+.breadcrumb-item::before {
+    padding-left: 0 !important;
+}
+
+li.breadcrumb-item {
+    padding-right: .5rem !important;
+}
+
+.popover-region-toggle.nav-link {
+    outline: none;
+}
+
+.see-all-link .popover-region-footer-container {
+    margin-right: 5px;
+    color: #3a3a3a;
+}
+
+.course_block_footer {
+    white-space: nowrap;
+}
+
+a.no-border-right:after {
+    display: none;
+}
+
+a.no-border-right {
+    margin-left: 0px;
+}
+
+.course_block_btn_div .btn.btn-primary {
+    border: 1px solid #bbb;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.current_module, .current_module_name {
+    padding-bottom: 3px;
+}
+
+.course_block_spaced {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+a.booknext {
+    border-bottom: none !important;
+}
+
+.course-content ul li.section.main {
+    border-bottom: 1px solid #eee;
+}
+
+.card {
+    border-radius: 3px !important;
+}
+
+a:focus, a:hover {
+    text-decoration: none !important;
+}
+
+.popover-region-toggle::before {
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: inherit;
+}
+
+.navbar .popover-region-container {
+    top: 2.8rem;
+}
+
+.usermenu .dropdown-menu,
+#page-mod-hsuforum-view .action-menu .dropdown-menu. {
+    margin-top: 5px;
+}
+
+div[data-role="flexitour-step"] .btn.btn-primary {
+    padding: .5rem 1rem;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+div[data-role="flexitour-step"] .btn.btn-primary:hover {
+    font-size: 12px !important;
+}
+
+span[aria-hidden="true"], div[data-role="flexitour-step"] .modal-body {
+    color: #2f2f2f;
+}
+
+.course-block-link {
+    border-bottom: [[setting:linkborderbottom]];
+    font-weight: 600;
+}
+
+.brandicon {
+    float: left;
+    padding-right: 5px;
+    width: 25px;
+    height: 20px;
+    margin-top: -2px;
+}
+
+#page-header {
+    margin-top: 0;
+    background-color: #2f2f2f !important;
+}
+
+#page-header a.logo {
+    background-position: center center;
+    float: none;
+    width: auto;
+    margin: 0;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#page-login-index {
+    background-color: #2f2f2f !important;
+}
+
+.column-one {
+    border-right: 1px solid #eee;
+}
+
+.popover-region-notifications .popover-region-header-text {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.popover-region-notifications .popover-region-container {
+    padding: 12px 20px 12px 20px;
+    margin-top: 16px;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+}
+
+.popover-region-notifications .popover-region-footer-container {
+    height: 36px;
+    text-align: center;
+    padding-top: 7px;
+    background: #ddd;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+.popover-region-notifications .popover-region-footer-container:hover {
+    background: #eee !important;
+    border-color: #bbb!important
+    color: #2f2f2f !important;
+    text-decoration: none;
+}
+
+.popover-region-notifications .popover-region-header-container,
+.popover-region-notifications .popover-region-container {
+    border: none;
+}
+
+.popover-region-notifications .popover-region-content-container {
+    border-top: 1px solid #545454;
+}
+
+.popover-region-notifications .content-item-body {
+    margin-top: 5px;
+}
+
+.popover-region-notifications .content-item-footer {
+    margin-top: 5px;
+}
+
+.popover-region-notifications .content-item-footer a,
+.content-item-footer .timestamp {
+    color: #fff !important;
+}
+
+.popover-region-notifications .content-item-container:hover {
+    background-color: #545454 !important;
+}
+
+.popover-region-notifications  .view-more {
+    color: #fff !important;
+}
+
+.popover-region-notifications .popover-region-content-container .empty-message {
+    margin-top: 16px;
+    color: #8c8c8c;
+}
+
+.custom-notes h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2f2f2f;
+    margin-bottom: 14px;
+}
+
+.custom-notes {
+    font-weight: normal !important;
+    font-size: 16px;
+}
+
+.custom-notes p {
+    color: #333;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.hsuforum-tools .hsuforum-reply-link {
+    display: inline;
+}
+
+.hsuforum-tools a,
+.hsuforum-tools .hsuforum-reply-link {
+    background: #fff !important;
+    border: none !important;
+    border-bottom: 1px dashed #bbb !important;
+    padding: 0 !important;
+    margin: 0 14px 0 0;
+    text-transform: uppercase !important;
+}
+
+.hsuforum-tools {
+    text-align: right;
+}
+
+.hsuforum-tools a:hover,
+.hsuforum-tools .hsuforum-reply-link:hover {
+    color: [[setting:linkhovercolour]] !important;
+    border-bottom-style: [[setting:linkhoverborderbottomstyle]];
+    text-decoration: [[setting:linkhovertextdecoration]];
+    background: none !important;
+}
+
+.hsuforum-tools span.like-and-thanks span:not(:empty):before {
+    content: "(";
+    margin-right: 1px;
+}
+
+.hsuforum-tools span.like-and-thanks span:not(:empty):after {
+    content: ")";
+    margin-left: 1px;
+}
+
+.hsuforum-tools span.like-and-thanks span:not(:empty) {
+    margin-left: -9px;
+    background: none;
+    border: none;
+}
+
+.hsuforum-tools span.like-and-thanks span:not(:empty):hover {
+    color: [[setting:linkhovercolour]];
+    border-bottom-style: [[setting:linkhoverborderbottomstyle]];
+    text-decoration: [[setting:linkhovertextdecoration]];
+}
+
+.hsuforum-post-body a {
+    color: #2f2f2f;
+    border-bottom: 1px dashed #bbb;
+}
+
+.hsuforum-post-body a:hover {
+    border-bottom: 1px solid #bbb !important;
+    color: #8c8c8c;
+}
+
+.hsuforum-form input[type=text] {
+    border: 1px solid #bbb;
+    padding: 10px;
+}
+
+.hsuforum-form .hsuforum-textarea {
+    -webkit-appearance: none !important; 
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+}
+
+.hsuforum-form input[type=file] {
+    font-size: 12px;
+}
+
+.hsuforum-post-body button[type=submit] {
+    padding: 8px 37px;
+    margin: 11px 0 10px;
+}
+
+.page-navbar {
+    background: #ddd;
+}
+
+.page-navbar .card-block {
+    padding: 1rem;
+}
+
+.course-content .single-section {
+    margin-top: 0;
+}
+
+.single-section h3.sectionname {
+    margin-top: 0;
+}
+
+.course-content .single-section .section-navigation {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.block-region .card-block .card-title {
+    padding-bottom: .5rem;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    margin-bottom: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.course-content .single-section .topics .summary p {
+    color: #8c8c8c;
+}
+
+.course-content .single-section .topics .summary {
+    margin-left: 10px !important;
+    margin-top: 10px;
+}
+
+section[data-region="blocks-column"] .card-block {
+    padding: 1.6rem;
+}
+
+.course-content ul.topics li.section {
+    padding: 0 !important;
+}
+
+.left.side {
+    display: none;
+}
+
+.navbar {
+    max-height: 53px;
+    padding: 7px 16px;
+}
+
+.summarytext p {
+    margin-left: 0;
+}
+
+h1, h2, h3 {
+    line-height: 1.35 !important;
+}
+
+.single-section h3.sectionname {
+    font-size: 2rem !important;
+    font-weight: 400;
+}
+
+.block-region .card-block .card-title {
+    font-weight: 200!important;
+}
+
+.custom-notes h5  {
+    text-transform: capitalize !important;
+    font-size: 18px !important;
+    font-weight: 300;
+    line-height: 1.35 !important;
+}
+
+.custom-notes h3 {
+    font-size: 21px !important;
+    font-weight: 400;
+    margin-bottom: 19px !important;
+}
+
+li.breadcrumb-item.my_courses:not(.my_courses), span.link_with_border {
+    font-weight: 600;
+    border-bottom: 1px dashed #bbb;
+}
+
+span.link_with_border:hover {
+    color: #8c8c8c;
+    border-bottom-style: solid;
+}
+
+.custom-notes p {
+    font-weight: normal;
+}
+
+.custom-notes .has-border, .has-border {
+    border-radius: 3px;
+    border-color: #545454;
+}
+
+.course-module ul:not(.no-bullet) li:before {
+    content: "• ";
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
+.card-block .clearfix a:hover {
+    border-bottom: none;
+}
+
+.section .activity .activityinstance .instancename .last-part {
+    color: #2f2f2f;
+    font-weight: 400;
+}
+
+.section li.activity {
+    padding: 0.5em 0.2em;
+}
+
+.block_teaching_team .user_profile .user_details .detail:first-child {
+    margin-top: 0;
+}
+
+.li.breadcrumb-item {
+    margin-bottom: 3px;
+}
+
+.course_block_spaced {
+    margin-bottom: 17px;
+}
+
+.hr_margin {
+    margin-left: 41px;
+}
+
+.card-footer {
+    padding: 14px 26px;
+}
+
+.course-block-link {
+    margin-left: 3px;
+}
+
+.popover-region-notifications .popover-region-header-text {
+    font-weight: 300;
+}
+
+.popover-region-notifications .popover-region-container {
+    margin-top: 11px;
+}
+
+aside.block-region li.breadcrumb-item.my_courses, aside.block-region .clearfix a {
+    border-bottom: 1px dashed #2f2f2f;
+    font-weight: 600;
+}
+
+.block_education_support_services .content a.btn-plain {
+    margin-bottom: 10px;
+}
+
+#page-login-index .navbar {
+    height: 55px !important;
+    padding: 12px 16px;
+}
+
+#page-login-index a.logo {
+    margin-top: 25px;
+}
+
+#page-login-index .login-message h2 {
+    font-weight: lighter;
+}
+
+.userlist .userpicture-additional .userpicture-flag {
+    margin-left: 10px;
+}
+
+.hover-tooltip {
+    display: none;
+}
+
+.block_teaching_team .user_profile .user_details .detail {
+    margin: 0 0 0 11px !important;
+}
+
+.block_teaching_team .user_profile .user_details .detail.email a {
+    font-size: 12px;
+    line-height: 22px;
+    word-break: break-word;
+}
+
+.course-content ul.topics, .course-content ul.weeks {
+    margin-top: -26px;
+}
+
+.card-text a {
+    border-bottom: 1px dashed #bbb;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.card-text a:hover {
+    color: #8c8c8c;
+    text-decoration: none;
+    border-bottom-style: solid;
+}
+
+.card-text a:first-of-type>.icon {
+    border-bottom: 1px solid #fff;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 6px;
+}
+
+.teaching_team .user_profile .user_details .detail a {
+    font-weight: 600;
+}
+
+.course-content ul.topics, .course-content ul.weeks {
+    margin-top: -26px;
+}
+
+.course-content .section-summary .section-title {
+    margin: 2px 5px 19px 5px;
+    line-height: 1.6 !important;
+}
+
+.summarytext p {
+    line-height: 1.65 !important;
+}
+.course-content ul li.section.main {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.dropdown span.usertext {
+    color: [[setting:headertextcolor]];
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 2px;
+}
+
+.usermenu .dropdown .dropdown-toggle::after,
+#page-mod-hsuforum-view .action-menu .dropdown .dropdown-toggle::after {
+    color: [[setting:headertextcolor]];
+}
+
+.single-section h3.sectionname {
+    font-weight: 300;
+    line-height: 1.5 !important;
+}
+
+.course-content .single-section .topics .summary p {
+    line-height: 1.65;
+}
+
+.activity .contentwithoutlink p {
+    line-height: 1.65;
+}
+
+.section li.activity {
+    padding: .35em .4em .3em .2em;
+}
+
+.detail.website div {
+    margin-bottom: 7px;
+}
+
+.block_teaching_team .user_profile {
+    margin-bottom: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, .main-heading {
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.block-region .card-block .card-title {
+    font-size: 18px !important;
+    margin-bottom: 18px;
+    border-bottom: none;
+}
+
+section[data-region="blocks-column"] .card-block {
+    padding: 1.7rem 1.6rem 1.6rem;
+}
+
+.block_teaching_team .user_profile .user_details .detail {
+    margin: 0 12px;
+}
+
+.brandicon {
+    padding-right: 8px;
+    width: inherit;
+    height: 20px;
+}
+
+li.breadcrumb-item {
+    margin-bottom: 2px;
+}
+
+#page-site-index #page {
+    margin-top: 45px !important;
+}
+
+aside[data-block="education_support_services"] a {
+    border-bottom: 1px solid #bbb !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+aside[data-block="education_support_services"] a:hover {
+    font-size: 12px !important;
+    border: 1px solid #bbb !important;
+}
+
+form[data-region="grading-actions-form"] .btn-primary,
+form[data-region="grading-actions-form"] .btn-secondary,
+form[data-region="grading-actions-form"] .btn-secondary:hover,
+form[data-region="grading-actions-form"] .btn-primary:hover {
+    font-size: 12px !important;
+}
+
+.gradereport-grader-table .user,
+#page-grade-report-user-index  .page-header-image,
+#page-course-view-topics .userprofile .page-header-image {
+    text-align: center !important;
+}
+
+#page-login-index #modal-content button[type="submit"],
+#page-login-index #modal-content button[type="submit"]:hover {
+    margin-left: 0 !important;
+    font-size: 12px !important;
+}
+
+[href*="#maincontent"] {
+    display: none;
+}
+
+#main-heading_0:target {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+#page-site-index #region-main-box section#region-main .card-block {
+    background: transparent !important;
+    border: none !important; 
+}
+
+#page-user-edit #id_moodle_optional,
+#page-user-edit #id_moodle_additional_names {
+    display: none;
+
+}
+
+div[data-role="flexitour-step"] .modal-body {
+    white-space: normal;
+}
+
+a[data-action="tool_usertours/resetpagetour"] {
+    display: none;
+}
+
+a#reset_user_tour_button {
+    border-radius: 3px;
+    padding: 4px 13px;
+    background: #ddd;
+    color: #2f2f2f !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.acc_block_title_has_tour_button {
+    margin-top: 25px;
+    margin-bottom: -43px;
+    margin-right: 124px;
+}
+
+.activity img.activityicon {
+    border: 1px solid #2f2f2f !important;
+    border-radius: 50% !important;
+}
+
+li.lightbulb-bullet {
+  background: url([[pix:theme|lightbulb_bullet]]) no-repeat left top;
+  padding: 6px 3px 3px 35px;
+  background-size: 35px 30px;
+}
+
+li.lightbulb-bullet:before {
+    content: "" !important;
+}
+
+li.word-bullet:before {
+  background-image: url([[pix:theme|word_icon]]);
+}
+
+li.spreadsheet-bullet:before {
+  background-image: url([[pix:theme|spreadsheet_icon]]);
+}
+
+li.pdf-bullet:before {
+  background-image: url([[pix:theme|pdf_icon]]);
+}
+
+li.presentation-bullet:before {
+  background-image: url([[pix:theme|presentation_icon]]);
+}
+
+.editor_atto_content_wrap ol li {
+    list-style-type: inherit !important;
+}
+
+.editor_atto_content_wrap ul li:before {
+    content: "• ";
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.navbar-light .navbar-brand {
+    margin-top: 12px;
+    color: [[setting:headertextcolor]];
+    font-size: 12px !important;
+    text-transform: uppercase;
+}
+
+.navbar .popover-region-notifications {
+    margin-right: 0;
+}
+
+.dropdown-toggle::after {
+    font-size: 15px;
+}
+
+.usermenu .menubar .dropdown {
+    margin-top: 1px;
+}
+
+.action-menu .userpicture {
+    margin-top: -1px;
+}
+
+.usermenu {
+    padding-top: 7px;
+}
+
+.usermenu a {
+    padding: 17px 12px 15px 0px;
+}
+
+.usermenu a:focus {
+    background: #545454;
+    outline: none;
+}
+
+.usermenu a:hover .usertext, .usermenu a:hover:after,
+.usermenu a:focus .usertext, .usermenu a:focus:after {
+    color: #fff !important;
+}
+
+.navbar .popover-region:focus {
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    width: 43px;
+    padding-top: 13px;
+}
+
+.navbar .popover-region .nav-link:focus {
+    background: #545454;
+}
+
+.navbar-light .navbar-nav .nav-link img {
+    padding: 7px 7px 0px;
+    margin-bottom: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link .count-container {
+    float: right;
+    margin-top: -20px !important;
+    margin-right: 10px;
+    position: inherit !important;
+}
+
+#page-site-index a[href*="#page-content"].sr-only-focusable:focus {
+    position: fixed !important;
+    top: 260px !important;
+    left: 10px !important;
+    background-color: #fff !important; 
+}
+
+a[href*="#page-content"].sr-only-focusable:focus {
+    position: fixed !important;
+    top: 125px !important;
+    left: 10px !important;
+    background-color: #fff !important; 
+}
+
+#page-message-output-popup-notifications .content-area .image-container img {
+    height: 45px;
+}
+
+#page-message-output-popup-notifications .notification-area  .subject-container {
+    padding-left: 25px !important;
+}
+
+#page-message-output-popup-notifications .notification-area .timestamp {
+    margin-left: 50px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+#page-message-output-popup-notifications .notification-area .image-container {
+    margin-top: -4px;
+}
+
+#page-message-output-popup-notifications .notification-area .image-container image-container {
+    height: 50px;
+}
+
+.navbar .popover-region-messages {
+    display: none;
+}
+
+#page-course-view-topics .main.section.hidden .right.side {
+    margin-top: -15px;
+}
+
+#block-region-side-pre .block_progress .progressContainer a[data-toggle='popover'] {
+    margin-left: 5px;
+    margin-top: -4px;
+}
+
+#block-region-side-pre .block_progress .progressEventInfo img.iconInInfo {
+    width: 14px;
+    height: 14px;
+}
+
+#block-region-side-pre .progressEventInfo img.moduleIcon {
+    height: 45px;
+    width: 45px;
+    max-width: 45px !important;
+}
+
+#page-mod-hsuforum-view .mod-hsuforum-posts-container a.hsuforum_discussion_subscribe {
+    border-bottom: none !important;
+}
+
+#page-mod-hsuforum-view .mod-hsuforum-posts-container a.hsuforum_discussion_subscribe:hover {
+    border-bottom: none !important;
+    background-color: inherit !important;
+}
+
+#page-mod-hsuforum-discuss .mod-hsuforum-posts-container .hsuforum-tools.hsuforum-thread-tools a:hover {
+    border-bottom-style: solid;
+}
+
+.navbar .navbar-nav .popover-region-notifications .popover-region-container .popover-region-content-container 
+.popover-region-content .all-notifications .notification a.view-more,
+.navbar .navbar-nav .popover-region-notifications .popover-region-container a.see-all-link 
+.popover-region-footer-container {
+    display: none;
+}
+
+.count-container-unread-notifications {
+    float: right;
+    margin-top: 5px;
+    margin-right: -25px;
+    position: inherit!important;
+    background-color: [[setting:unreadnotificationcountcolour]];
+    padding: 2px;
+    border-radius: 2px;
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.count-container {
+    display: none !important;
+}
+
+.navbar .navbar-nav div.content-item-container.notification.unread {
+    background-color: #545454;
+}
+
+.section .activity .contentafterlink .unread {
+    text-transform: uppercase;
+    font-weight: 600;
+    background: none;
+}
+
+.section .activity .contentafterlink .unread:before {
+    content: "";
+    background: #f42684;
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+.hsuforum-unreadcount {
+    text-transform: uppercase;
+    font-weight: 600;
+    background: none;
+    color: #2f2f2f !important;
+    border: none;
+    padding: 0;
+    text-align: right;
+    display: block;
+    margin-top: 3px;
+    border-bottom: none !important;
+}
+
+.hsuforum-unreadcount:hover {
+    border-bottom-width: 0 !important;
+    border-bottom-style: none !important;
+}
+
+.hsuforum-unreadcount:before {
+    content: "";
+    background: #f42684;
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+.hsuforum-thread-replies-meta {
+    margin-bottom: 8px;   
+}
+
+.hsuforum-post .hsuforum-unreadcount {
+    display: inline-block;
+}
+
+.custom-notes h3, h4, h5 {
+    font-weight: 600 !important;
+}
+
+.custom-notes h3 {
+    font-size: 22px !important;
+}
+
+.custom-notes h4 {
+    font-size: 19px !important;
+}
+
+.custom-notes h5 {
+    font-size: 17px !important;
+}
+
+.custom-notes p b {
+    color: #545454;
+}
+
+.block-region .card-block .card-title {
+    text-align: center;
+    font-size: 14px !important;
+}
+
+.block-region a {
+    text-transform: uppercase;
+    border-bottom: none !important;
+}
+
+.block-region a:hover,
+#discussionsview a:hover,
+.teaching_team .user_profile .user_details .detail a:hover {
+    border-bottom: none !important;
+}
+
+.block_teaching_team .user_profile .user_details .detail.email a {
+    text-transform: inherit;
+}
+
+.block_ned_sidebar a {
+    font-size: 12px;
+}
+
+#page-course-view-topics .course-content .completionprogress {
+    display: none;
+}
+
+.path-mod-book .book_toc_indented li {
+    margin-top: 15px;
+}
+
+.path-mod-book .book_toc_indented li ul li {
+    margin-left: 8px;
+}
+
+.path-mod-book .book_toc_indented li a {
+    line-height: 1.7;
+    border: none;
+}
+
+.block_teaching_team .user_profile .user_details {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+.block_teaching_team .user_profile .user_picture {
+    float: none;
+    margin: 0 auto;
+}
+
+#page-course-view-topics .contentwithoutlink h5 {
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav img.smallicon[title=' Toggle notifications menu '] {
+    height: 36px;
+    width: auto;
+    opacity: 0.5;
+    margin-top: 1px;
+    margin-bottom: 4px; 
+
+}
+
+.navbar .navbar-nav img.smallicon[title=' Toggle notifications menu ']:hover,
+.navbar .navbar-nav img.smallicon[title=' Toggle notifications menu ']:focus,
+.navbar .popover-region .nav-link:focus img  {
+    opacity: 1;
+}
+
+.block-region .block_ned_sidebar img.icon {
+    width: 37px;
+    height: 37px;
+    background-color: #EEE;
+    border-radius: 50%;
+    padding-right: 0;
+    margin-right: 3px;
+}
+
+.moodle-dialogue-exception {
+    display: none;
+}
+
+body.lockscroll {
+    overflow: inherit;
+}
+
+.custom-notes ul.no-bullet li.lightbulb-bullet {
+    padding-left: 35px;
+}
+
+.custom-notes b {
+    color: #545454;
+}
+
+#region-main ol li {
+    list-style: inherit;
+}
+
+#region-main ul {
+    padding-left: 1rem;
+}
+
+.section .activity .contentafterlink {
+    display: block !important;
+    left: 4px;
+}
+
+.embed-container { 
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+}
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+#page-course-view-topics #region-main .course-content ul.topics,
+#page-course-view-topics #region-main ul.topics ul.section {
+    padding-left: 0;
+}
+
+.section-navigation.navigationtitle {
+    display: block !important;
+}
+
+#page-message-notificationpreferences .preferences-container .preference-table thead th:first-child + th,
+#page-message-notificationpreferences .preferences-container .preference-table tbody tr:first-child td:first-of-type,
+#page-message-notificationpreferences .preferences-container .preference-table tr td:first-child + td,
+#page-message-notificationpreferences .preferences-container .preference-table tbody tr td:first-child + td,
+#page-message-notificationpreferences .checkbox-container  {
+    display: none;
+}
+
+#page-message-notificationpreferences .preferences-container .preference-table thead th + th,
+#page-message-notificationpreferences .preferences-container .preference-table tbody tr td + td {
+    background-color: #F7F7F7;
+}
+
+#page-message-notificationpreferences .preferences-container {
+    margin-top: 30px;
+}
+
+.fitemtitle, .fitemtitle + .felement input[name="profile_field_identificationdocument"] {
+    display: none;
+}
+
+.dndupload-progress-outer {
+    width: 250px;
+}
+
+.dndupload-progress-inner-custom {
+    background-color: [[setting:customfileuploadprogressbarbackgroundcolour]];
+    color:[[setting:customfileuploadprogressbarfontcolour]];
+    text-align: center;
+}
+
+.dndupload-progress-outer, .dndupload-progress-inner-custom, .dndupload-progress-inner {
+    position: absolute;
+}
+
+.path-mod-book .book_toc_numbered ul li a,
+.path-mod-book .book_toc_indented ul li a,
+.path-mod-book .book_toc_none ul li a {
+    text-transform: inherit;
+}
+
+#page-user-profile .userprofile .profile_tree ul li.contentnode dt[style='margin-top:25px;'],
+#page-user-profile .userprofile .profile_tree ul li.contentnode dt[style='margin-top:25px;'] + dd,
+#page-user-profile .userprofile .profile_tree ul li.contentnode dt[style='margin-top: 25px;'],
+#page-user-profile .userprofile .profile_tree ul li.contentnode dt[style='margin-top: 25px;'] + dd {
+    display: none;
+}
+
+.course-module p a, .course-module ul li a {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+.course-module p a:hover, .course-module ul li a:hover {
+    color: #1a0dab;
+}
+
+.course-module b {
+    color: #545454;
+}
+
+#page-mod-quiz-view #region-main p a, 
+#page-mod-questionnaire-view #region-main p a, 
+#page-mod-hsuforum-view #region-main p:not(.hsuforum-thread-byline) a,
+#page-mod-hsuforum-view #region-main ul li a, 
+#page-mod-assign-view #region-main p a,
+#page-mod-assign-view #region-main ul li a,
+#page-mod-choice-view #region-main p a, 
+#page-mod-choice-view #region-main ul li a,
+#page-mod-glossary-view #region-main p a,
+#page-mod-glossary-view #region-main ul li a,
+#page-mod-groupselect-view #region-main p a,
+#page-mod-groupselect-view #region-main ul li a,
+#page-mod-workshop-view #region-main p a,
+#page-mod-workshop-view #region-main ul:not(.tasks) li a,
+#page-mod-wiki-view #region-main p a,
+#page-mod-wiki-view #region-main ul:not(.nav-tabs) li a,
+#page-mod-ouwiki-view #region-main p a,
+#page-mod-ouwiki-view #region-main ul:not(.nav-tabs) li:not(#ouwiki_nav_index):not(#ouwiki_nav_history):not(#ouwiki_nav_participation) a,
+#page-mod-lesson-view #region-main p a,
+#page-mod-lesson-view #region-main ul:not(.nav-tabs) li a,
+#page-mod-hsuforum-discuss #region-main p:not(.hsuforum-thread-byline) a,
+#page-mod-hsuforum-discuss #region-main ul li a  {
+    color: #1a0dab;
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+#page-mod-quiz-view #region-main p a:hover, 
+#page-mod-questionnaire-view #region-main p a:hover, 
+#page-mod-hsuforum-view #region-main p:not(.hsuforum-thread-byline) a:hover,
+#page-mod-hsuforum-view #region-main ul li a:hover, 
+#page-mod-assign-view #region-main p a:hover,
+#page-mod-choice-view #region-main p a:hover,
+#page-mod-glossary-view #region-main p a:hover,
+#page-mod-glossary-view #region-main ul li a:hvoer,
+#page-mod-groupselect-view #region-main p a:hover,
+#page-mod-groupselect-view #region-main ul li a:hover,
+#page-mod-workshop-view #region-main p a:hover,
+#page-mod-workshop-view #region-main ul:not(.tasks) li a:hover,
+#page-mod-wiki-view #region-main p a:hover,
+#page-mod-wiki-view #region-main ul:not(.nav-tabs) li a:hover,
+#page-mod-ouwiki-view #region-main p a:hover,
+#page-mod-ouwiki-view #region-main ul:not(.nav-tabs) li:not(#ouwiki_nav_index):not(#ouwiki_nav_history):not(#ouwiki_nav_participation) a:hover,
+#page-mod-lesson-view #region-main p a:hover,
+#page-mod-lesson-view #region-main ul:not(.nav-tabs) li a:hover,
+#page-mod-hsuforum-discuss #region-main p:not(.hsuforum-thread-byline) a:hover,
+#page-mod-hsuforum-discuss #region-main ul li a:hover {
+    color: #1a0dab;
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+#page-mod-quiz-view #region-main div:not(.custom-notes) ul:not(.no-bullet) li:before, 
+#page-mod-questionnaire-view #region-main div:not(.custom-notes) ul:not(.no-bullet) li:before, 
+#page-mod-hsuforum-view #region-main div:not(.custom-notes) ul:not(.no-bullet) li:before, 
+#page-mod-assign-view #region-main div:not(.custom-notes) ul:not(.no-bullet) li:before,
+#page-mod-choice-view #region-main div:not(.custom-notes) ul:not(.no-bullet) li:not(.option):not(.clearfloat):before,
+#page-mod-glossary-view #region-main div:not(.custom-notes) ul:not(.no-bullet) li:before,
+#page-mod-groupselect-view #region-main div:not(.custom-notes) ul:not(.no-bullet) li:before,
+#page-mod-workshop-view #region-main div:not(.custom-notes) ul:not(.tasks):not(.no-bullet) li:before,
+#page-mod-wiki-view #region-main div:not(.custom-notes) ul:not(.nav-tabs):not(.no-bullet) li:before,
+#page-mod-ouwiki-view #region-main div:not(.custom-notes) ul:not(.nav-tabs):not(.no-bullet) li:not(#ouwiki_nav_index):not(#ouwiki_nav_history):not(#ouwiki_nav_participation):before,
+#page-mod-lesson-view #region-main div:not(.custom-notes) ul:not(.nav-tabs):not(.no-bullet) li:before,
+#page-mod-hsuforum-discuss #region-main div:not(.custom-notes) ul:not(.no-bullet) li:before {
+    content: "• ";
+    margin-left: -8px;
+}
+
+#page-mod-quiz-view #region-main b, 
+#page-mod-questionnaire-view #region-main b, 
+#page-mod-hsuforum-view #region-main b, 
+#page-mod-assign-view #region-main b,
+#page-mod-choice-view #region-main b,
+#page-mod-glossary-view #region-main b,
+#page-mod-groupselect-view #region-main b,
+#page-mod-workshop-view #region-main b,
+#page-mod-wiki-view #region-main b,
+#page-mod-ouwiki-view #region-main b,
+#page-mod-lesson-view #region-main b,
+#page-mod-hsuforum-discuss #region-main b {
+    color: #545454;
+}
+
+#page-mod-quiz-view #region-main div:not(.custom-notes) ul,
+#page-mod-questionnaire-view #region-main div:not(.custom-notes) ul,
+#page-mod-hsuforum-view #region-main div:not(.custom-notes) ul, 
+#page-mod-assign-view #region-main div:not(.custom-notes) ul,
+#page-mod-choice-view #region-maindiv:not(.custom-notes) ul,
+#page-mod-glossary-view #region-main div:not(.custom-notes) ul,
+#page-mod-groupselect-view #region-main div:not(.custom-notes) ul,
+#page-mod-workshop-view #region-main div:not(.custom-notes) ul,
+#page-mod-wiki-view #region-main div:not(.custom-notes) ul,
+#page-mod-ouwiki-view #region-main div:not(.custom-notes) ul,
+#page-mod-lesson-view #region-main div:not(.custom-notes) ul,
+#page-mod-hsuforum-discuss #region-main div:not(.custom-notes) ul {
+    padding-left: 33px;
+}
+
+#page-mod-ouwiki-view #region-main div#ouwiki_addnew ul li:before {
+    content: "" !important;
+    padding-left: 0 !important;
+}
+
+.custom-notes ul li:before {
+    margin-left: 0 !important;
+}
+
+#page-header {
+    background-size: cover;
+}
+
+#page-login-index a.logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: inherit;
+}
+
+.alert-info-login-custom {
+    border: #22d2d5;
+    background: #e8fafb;
+    border-style: solid;
+    border-width:  1px;
+    border-radius:  3px;
+    color: #2f2f2f;
+    font-weight: normal;
+}
+
+.activity .activityinstance .dimmed_text {
+    padding-left: 31px !important;
+    display: table !important;
+}
+
+h1.modal-title {
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+}
+
+#page-message-notificationpreferences #page-wrapper #region-main .preferences-page-container h1 {
+    font-size: 2rem;
+}
+
+#page-login-index #page-wrapper {
+    background-size: cover;
+}
+
+.block_progress li.progressBarCell {
+    display: inline-block;
+}
+
+.block_progress  ol.progressBarProgressTable {
+    padding-left: 0;
+    height: 30px !important;
+}
+
+.block_progress ol li a {
+    padding: 2px 18px 0 0;
+}
+
+aside#block-region-side-pre .block_progress li.progressBarCell a:focus,
+aside#block-region-side-pre aside.block_progress div.progressEventInfo a:focus {
+    outline-offset: -2px;
+    outline: 3px solid #009bda !important;
+}
+
+.navbar .usermenu i.icon {
+    color: #c6c6c6;
+}
+
+.navbar .navbar-nav img.icon[title='Toggle notifications menu'] {
+    height: 36px;
+    width: auto;
+    opacity: .5;
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+
+.navbar .navbar-nav img.icon[title='Toggle notifications menu']:hover,
+.navbar .navbar-nav img.icon[title='Toggle notifications menu']:focus,
+.navbar .popover-region .nav-link:focus img {
+    opacity: 1;
+}
+
+i.icon.fa.fa-exclamation-circle.text-danger {
+    color: #de0a0a !important;
+}
+
+#page-footer a {
+    text-decoration: none !important;
+}
+
+#page-wrapper div.context-header-settings-menu {
+    display: none;
+}
+
+#page-mod-assign-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-workshop-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-quiz-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-assign-grader #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-questionnaire-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-glossary-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-video-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-quiz-review #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-book-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-page-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-oublog-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-wiki-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'],
+#page-mod-data-view #region-main-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'] {
+    display: none;
+}
+
+#page-mod-hsuforum-view .action-menu[data-enhance='moodle-core-actionmenu'] i.icon.fa-cog {
+    margin-right: 0;
+}
+
+.navbar .usermenu i.icon,
+.navbar #nav-notification-popover-container [data-region='popover-region-header-actions'] i.icon,
+#page-mod-hsuforum-view #region-main-settings-menu .action-menu a[role='menuitem'] i.icon {
+    color: #a1a1a1;
+}
+
+#page-mod-hsuforum-view #region-main-settings-menu .action-menu i.fa-cog.icon,
+#block-region-side-pre .block_settings i.icon,
+#page-mod-assign-view #region-main .comment-link i.icon,
+#page-mod-book-view #region-main .navtop i.icon,
+#page-mod-book-view #region-main .navbottom i.icon,
+.editor_atto .editor_atto_toolbar i.icon,
+#block-region-side-pre .block .action-menu.moodle-actionmenu a.dropdown-toggle i.icon.fa-cog,
+#block-region-side-pre .block .action-menu.moodle-actionmenu a.dropdown-toggle:after,
+#page-mod-folder-view .fp-filename-icon .fa-folder-open {
+    color: #2f2f2f;
+}
+
+i.icon.fa {
+    font-size: 16px !important;
+}
+
+.navbar #nav-notification-popover-container i.icon.fa.fa-bell.fa-fw:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 22px;
+    vertical-align: middle;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-left: .3em solid transparent;
+    left: 11px;
+    margin-top: -33px;
+    font-size: 15px !important;
+}
+
+.navbar #nav-notification-popover-container i.icon.fa.fa-bell.fa-fw {
+    color: #a1a1a1;
+}
+
+.popover-region-notifications .popover-region-toggle.nav-link[data-region='popover-region-toggle'] {
+    height: 47px;
+}
+
+.navbar .popover-region .nav-link:focus i.icon.fa.fa-bell.fa-fw,
+.navbar .popover-region .nav-link:hover i.icon.fa.fa-bell.fa-fw {
+    color: #ffffff !important;
+}
+
+#block-region-side-pre .block .action-menu.moodle-actionmenu a.dropdown-toggle i.icon.fa-cog {
+    margin-right: 0;
+}
+
+.editor_atto_toolbar i.icon {
+    font-size: 14px !important;
+}
+
+#region-main .section_action_menu .action-menu .menubar .dropdown-menu .icon,
+#region-main .action-menu .dropdown-menu .icon,
+.block-region .action-menu .dropdown-menu .icon
+{
+    color: #a1a1a1;
+}
+
+#page-calendar-view .popover {
+  left: 0 !important;
+  top: 0 !important;
+}
+
+#page-calendar-view .popover .popover-arrow {
+  display: block;
+}
+
+#page-mod-questionnaire-complete .message, 
+#page-mod-questionnaire-preview .message, 
+#page-mod-questionnaire-complete .thankbody, 
+#page-mod-questionnaire-complete .thankhead {
+    border: none;
+}
+
+.usermenu .action-menu a:after {
+    margin-top: 1px;
+}
+
+=======
+#page-user-profile .context-header-settings-menu .action-menu[data-enhance='moodle-core-actionmenu'] {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px){
+    .navbar-brand {
+        float: left;
+    }
+
+    a.no-border-right {
+        margin-left: 10px;
+    }
+
+    a.border-right {
+        margin-left: 0;
+    }
+
+    .hr_margin {
+        margin-left: 0;
+    }
+
+    .titlearea {
+        text-align: left !important;
+    }
+
+    .course_block_btn_div {
+        text-align: center;
+    }
+
+    .course_block_spaced {
+        padding: 16px 16px;
+    }
+
+    .column-one {
+        margin-left: -15px;
+        border-right: 1px solid #eee;
+    }
+
+    a.no-border-right {
+        margin-left: 15px;
+    }
+
+    .hsuforum-tools a,
+    .hsuforum-tools .hsuforum-reply-link {
+        clear: left;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .hsuforum-tools span.like-and-thanks span:not(:empty) {
+        float: left;
+        margin-top: 5px;
+    }
+
+    a.permalink {
+        margin-bottom: 10px;
+    }
+
+    aside#block-region-footer {
+        margin-right: 0 !important;
+    }
+
+    .acc_block_title_has_tour_button {
+        margin-right: 40px !important;
+    }
+
+    a#reset_user_tour_button {
+        padding: 6px 4px !important;
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+    }
+
+    #page-wrapper > .container-fluid {
+        padding: 0 !important;
+    }
+
+    #page-content {
+        margin-top: 12px;
+    }
+
+    #page-content > div {
+        padding: 0px 7px;
+    }
+
+    .card-block {
+        padding: 1rem;
+    }
+
+    .course_block_0 > .card-block {
+        padding: 1.3rem 1.8rem;
+    }
+
+    header {
+        padding: 7px 16px 0 0;
+    }
+
+    header > .container-fluid {
+        padding: 0;
+    }
+
+    #page-navbar {
+        padding: 0;
+    }
+
+    .breadcrumb-nav {
+        padding: 0 10px;
+    }
+
+    .course_block_btn_div {
+        text-align: left;
+    } 
+
+    .navbar {
+        padding-left: 3px;
+        padding-right: 3px; 
+    }
+
+    .section .activity .contentafterlink .unread {
+        position: inherit;
+    }
+
+    .section .activity .contentafterlink {
+        top: -4px;
+        margin-left: 0;
+    }
+
+    .section .activity .contentafterlink {
+        left: 34px;
+        white-space: nowrap;
+    }
+
+    .navbar #nav-notification-popover-container i.icon.fa.fa-bell.fa-fw:after {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 25px;
+    }
+}

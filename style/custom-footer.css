@@ -1,0 +1,183 @@
+/* -------------------------------------------*\
+  Legend theme
+
+  @package    theme_legend
+  @copyright  2017 GetSmarter {@link http://www.getsmarter.co.za}
+  @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+  Contents
+    * Custom Footer
+/* -------------------------------------------*\
+ * Footer
+\* -------------------------------------------*/
+
+#page-footer {
+  background: #2f2f2f;
+  border-bottom: none;
+  color: [[setting:footertextcolor]] !important;
+}
+
+#page-footer hr {
+  display: none;
+}
+
+#page-footer ul.socials {
+  text-align: left;
+}
+
+#page-footer button.socialicon {
+  width: 30px;
+  height: 30px;
+  font-size: 1em;
+  background-color: [[setting:footertextcolor]];
+  padding: 0px;
+  margin: 0px 5px 0px 0px;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 20px;
+  border: 0;
+}
+
+#page-footer ul.nav {
+  display: inline-block;
+}
+
+#page-footer ul.nav li {
+  float: left;
+  margin-right: 20px;
+  border-right: 1px solid #444;
+  padding-right: 20px;
+  line-height: 40px;
+}
+
+#page-footer ul.nav li:last-child {
+  margin-right: 0px;
+  border-right: none;
+  padding-right: 0px;
+}
+
+#page-footer ul.nav li a:focus,
+#page-footer ul.nav li a:hover {
+  background: transparent;
+}
+
+#block-region-footer-right,
+#page-footer .footerblock .content.right {
+  text-align: right;
+}
+
+#page-footer .footerblock {
+  min-height: 0px;
+}
+
+#page-footer .footerlinks .copy {
+  float: none;
+  font-size: 11px;
+  width: initial;
+}
+
+#page-footer .footerlinks .footnote {
+  float: none;
+  font-size: 11px;
+  color: [[setting:footertextcolor]];
+}
+
+#page-footer img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+#page-footer ul.socials li {
+  text-align: right;
+  display: inline-block;
+}
+
+#page-footer ul {
+  padding-left: 0 !important;
+}
+
+#page-footer a {
+  color: [[setting:footertextcolor]] !important;
+}
+
+#page-footer .container-fluid {
+    padding-left: 30px !important;
+}
+
+.content-right {
+  text-align: right;
+}
+
+#page-footer .block {
+  background-color: #373a3c!important;
+}
+
+#page-footer .card-title {
+  display: none;
+}
+
+#page-footer .card {
+  border: none;
+}
+
+#page-footer p {
+  color: #a1a1a1;
+}
+
+.copylinks span {
+  color: #a1a1a1;
+}
+
+#block-region-footer .block_accessibility ul#block_accessibility_textresize {
+    margin-right: 66px;
+}
+
+#block-region-footer .block_accessibility ul#block_accessibility_changecolour {
+    margin-right: 71px;
+}
+
+aside#block-region-footer {
+  margin-top: 40px;
+  margin-right: 64px;
+}
+
+.acc_block_title {
+  margin-bottom: -43px;
+  margin-top: 58px;
+  margin-right: 65px;
+}
+
+#block-region-footer #accessibility_controls .access-button {
+  background: #a1a1a1 !important;
+  color: #000 !important;
+}
+
+#block-region-footer #accessibility_controls ul#block_accessibility_textresize a {
+    color: #000 !important;
+}
+
+#block-region-footer #accessibility_controls a#block_accessibility_colour1 {
+    color: #000 !important;
+}
+
+#block-region-footer aside.block_accessibility .card-block {
+  padding-top: 5px !important;
+}
+
+#page-footer .footerlinks {
+  margin-top: 40px;
+}
+
+label.atbar_control {
+    color: #a1a1a1;
+}
+
+@media only screen and (max-width: 500px){
+  #page-footer .content-right {
+    margin-right: 0;
+    text-align: center;
+  }
+}

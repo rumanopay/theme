@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Word Doc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Word-Doc" transform="translate(-10.000000, -9.000000)">
+            <g transform="translate(10.000000, 9.000000)">
+                <path d="M6.87128941,1 C5.87196144,1 5,1.96006208 5,2.99480902 L5.05432946,29.1186419 C5.05432946,30.1533889 5.87196144,31 6.87128941,31 L25.1830401,31 C26.182368,31 27,30.1533889 27,29.1186419 L27,9.01155923 L18.865918,1.02574106 L6.87128941,1 Z" id="Shape" stroke="#2F2F2F" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <polygon id="Shape" fill="#A1A19F" fill-rule="nonzero" points="26.4821999 13.9771729 20.1517578 8 26.4821999 8"></polygon>
+                <path d="M20.6832386,9.00358073 L27.232381,9.00358073 L18.9904116,0.946831597 L18.9904116,6.5922309 C18.9904116,7.62740947 19.6763271,9.00358073 20.6832386,9.00358073 Z" id="Shape" fill="#2F2F2F" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(0.000000, 5.000000)">
+                    <path d="M8,11 L24.0122446,11" id="Line" stroke="#828282"></path>
+                    <path d="M8,8 L24.0122446,8" id="Line-Copy-3" stroke="#828282"></path>
+                    <path d="M8,4 L17,4" id="Line-Copy-4" stroke="#828282"></path>
+                    <path d="M8,1 L17,1" id="Line-Copy-5" stroke="#828282"></path>
+                    <path d="M8,14 L24.0122446,14" id="Line-Copy" stroke="#828282"></path>
+                    <path d="M8,17 L24.0122446,17" id="Line-Copy-2" stroke="#828282"></path>
+                    <path d="M8,20 L24.0122446,20" id="Line-Copy-6" stroke="#828282"></path>
+                    <path d="M17.0122446,20.0281818 C17.0122446,20.6240152 16.4125,21.1115152 16,21.1115152 C15.725,21.1115152 10.975,21.1115152 1.75,21.1115152 C1.3375,21.1115152 1,20.6240152 1,20.0281818 L1,8.08333333 C1,7.4875 1.3375,7 1.75,7 L16,7.09955929 C16.4125,7.09955929 17.0122446,7.4875 17.0122446,8.08333333 L17.0122446,20.0281818 Z" id="Shape" fill="#2F2F2F" fill-rule="nonzero"></path>
+                    <path d="M16,19.0281818 C16,19.6240152 15.5550568,20.1115152 15.1425568,20.1115152 L0.75,20.1115152 C0.3375,20.1115152 0,19.6240152 0,19.0281818 L0,7.08333333 C0,6.4875 0.3375,6 0.75,6 L15.1425568,6 C15.5550568,6 16,6.4875 16,7.08333333 L16,19.0281818 Z" id="Shape" fill="#F42684" fill-rule="nonzero"></path>
+                    <text id="W" font-family="OpenSans-Bold, Open Sans" font-size="10" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="3" y="17">W</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

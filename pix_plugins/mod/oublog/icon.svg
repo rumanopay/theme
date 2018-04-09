@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Journal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Journal">
+            <g id="Group-3" transform="translate(13.000000, 11.000000)">
+                <g id="Group" fill-rule="nonzero">
+                    <path d="M21.3622169,29.0016641 L0,29.0016641 L0,0.00166409861 L21.3622169,0.00166409861 C22.2809066,0.00166409861 23.0258502,0.750130356 23.0258502,1.67316438 L23.0258502,27.3301638 C23.0258502,28.2531978 22.2809066,29.0016641 21.3622169,29.0016641 Z" id="Shape" stroke="#2F2F2F" fill="#FFFFFF"></path>
+                    <rect id="Rectangle-path" fill="#D8D8D8" x="0.530324836" y="9" width="22.0185033" height="10"></rect>
+                </g>
+                <path d="M0.5,18.5 L22.5227155,18.5" id="Line" stroke="#979797"></path>
+                <g id="Group-2" transform="translate(10.000000, 0.000000)" fill-rule="nonzero">
+                    <path d="M15.6312894,1.4718439 C14.0230658,1.4718439 12.7194233,2.6846023 12.7194233,4.18055662 L12.7194233,4.8577348 L18.3245027,4.88167208 L18.3245027,4.2044939 C18.3245027,2.70853958 17.2395131,1.4718439 15.6312894,1.4718439 Z" id="XMLID_958_" fill="#E4E4E4" transform="translate(15.521963, 3.176758) rotate(32.000000) translate(-15.521963, -3.176758) "></path>
+                    <polygon id="XMLID_959_" fill="#2F2F2F" transform="translate(10.234202, 14.250370) rotate(32.000000) translate(-10.234202, -14.250370) " points="8.7167605 5.44448822 11.6286267 5.44448822 11.7516438 22.9896488 8.97407301 23.0562523"></polygon>
+                    <polygon id="XMLID_960_" fill="#000000" transform="translate(8.077244, 12.523097) rotate(32.000000) translate(-8.077244, -12.523097) " points="6.62358569 3.38119149 9.62358569 3.38119149 9.62358569 21.6650023 6.53090185 21.6006421"></polygon>
+                    <polygon id="XMLID_961_" fill="#A1A19F" transform="translate(14.082201, 5.464258) rotate(32.000000) translate(-14.082201, -5.464258) " points="11.2652156 6.491233 13.9873205 6.46881672 16.8991867 6.46881672 16.8991867 4.43728218 11.2866284 4.44653377"></polygon>
+                    <polygon id="XMLID_962_" fill="#E4E4E4" transform="translate(3.683317, 22.113216) rotate(32.000000) translate(-3.683317, -22.113216) " points="0.753725751 20.7249149 2.69472472 23.539992 4.99469546 23.4498264 6.61290908 20.6864401 3.84806971 20.6946362"></polygon>
+                    <polygon id="XMLID_963_" fill="#F42684" transform="translate(2.609319, 24.145515) rotate(32.000000) translate(-2.609319, -24.145515) " points="2.71243156 25.1126398 3.74561306 23.1783895 1.47302446 23.2966429"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

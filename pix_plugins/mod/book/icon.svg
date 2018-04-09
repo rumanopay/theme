@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Book resource</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Book-resource">
+            <g id="Group" transform="translate(14.000000, 10.000000)" fill-rule="nonzero">
+                <path d="M21.3622169,29.0016641 L0,29.0016641 L0,0.00166409861 L21.3622169,0.00166409861 C22.2809066,0.00166409861 23.0258502,0.750130356 23.0258502,1.67316438 L23.0258502,27.3301638 C23.0258502,28.2531978 22.2809066,29.0016641 21.3622169,29.0016641 Z" id="Shape" stroke="#2F2F2F" fill="#FFFFFF"></path>
+                <rect id="Rectangle-path" fill="#F42684" x="14" y="0.483561198" width="4" height="28.0607096"></rect>
+                <rect id="Rectangle-path" fill="#D8D8D8" x="0.530324836" y="9" width="22.0185033" height="10"></rect>
+                <polygon id="Shape" fill="#2F2F2F" points="9 34 5.5 32 2 34 2 29 9 29"></polygon>
+            </g>
+            <path d="M14.5,28.5 L36.5227155,28.5" id="Line" stroke="#979797"></path>
+        </g>
+    </g>
+</svg>

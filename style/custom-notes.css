@@ -1,0 +1,116 @@
+/* -------------------------------------------*\
+  Legend theme
+
+  @package    theme_legend
+  @copyright  2017 GetSmarter {@link http://www.getsmarter.co.za}
+  @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+  Contents
+    * Custom notes
+
+\* -------------------------------------------*/
+
+
+/* -------------------------------------------*\
+ * Custom notes
+\* -------------------------------------------*/
+
+.custom-notes img {
+  margin: 0!important;
+}
+
+.custom-notes h3, h4, h5 {
+  margin: 0px 0px 25px 0px;
+}
+
+.custom-notes {
+  font-weight: lighter !important;
+  font-size: 17px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.custom-notes p b {
+  font-weight: bold;
+}
+
+.custom-notes h3 {
+  font-size: 26px;
+  line-height: 32px;
+  color: [[setting:themecolor]];
+}
+
+.custom-notes h4 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  color: #231f20;
+}
+
+.custom-notes h4 .heading-num {
+  color: [[setting:themecolor]];
+}
+
+.custom-notes h5 .heading-num {
+  color: [[setting:themecolor]];
+}
+
+.custom-notes h5 {
+  font-weight: bolder;
+  font-size: 19px;
+  line-height: 23px;
+  color: #231f20;
+}
+
+.has-border {
+  border: 1px solid;
+  border-color: [[setting:themecolor]];
+  padding: 10px;
+}
+
+.has-border p {
+  margin:0;
+}
+
+.custom-notes .has-border {
+  border: 1px solid;
+  border-color: [[setting:themecolor]];
+  padding: 10px;
+}
+
+.custom-notes .is-caption {
+  font-size: 17px;
+  line-height: 23px;
+  padding-top: 10px;
+  color: [[setting:themecolor]];
+  font-style: italic;
+}
+
+.custom-notes .caption-text {
+  color: #000000;
+  font-weight: bold;
+}
+
+.custom-notes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-notes ul li {
+  padding-left: 1.5em;
+  text-indent: -1.1em;
+}
+
+.custom-notes ul li:before {
+  content: "• ";
+  color: [[setting:themecolor]];
+}
+
+div[role=main] .custom-notes a {
+  color: #1A0DAB;
+  text-decoration: underline;
+}
+
+.custom-notes ul.no-bullet li.presentation-bullet {
+    padding-left: 0 !important;
+}

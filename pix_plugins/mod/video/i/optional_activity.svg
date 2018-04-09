@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Optional Activity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="25" rx="1.7"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Optional-Activity">
+            <g id="Group" transform="translate(10.000000, 13.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#1E1E1E" stroke-width="1" x="0.5" y="0.5" width="29" height="24" rx="1.7"></rect>
+                </g>
+                <rect id="Rectangle-5" fill="#E4E4E4" x="4.41176471" y="5" width="21.1764706" height="6.66666667" rx="3.06"></rect>
+                <rect id="Rectangle-5-Copy" fill="#E4E4E4" x="4.41176471" y="13.3333333" width="21.1764706" height="6.66666667" rx="3.06"></rect>
+                <circle id="Oval" fill="#F42684" fill-rule="nonzero" cx="22.0294118" cy="8.33333333" r="2.5"></circle>
+                <circle id="Oval-Copy" fill="#828282" fill-rule="nonzero" cx="7.67647059" cy="16.6666667" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

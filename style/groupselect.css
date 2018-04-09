@@ -1,0 +1,62 @@
+/* -------------------------------------------*\
+  Legend theme
+
+  @package    theme_legend
+  @copyright  2014 GetSmarter {@link http://www.getsmarter.co.za}
+  @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+  Contents
+    * Groupselect
+/* -------------------------------------------*\
+ * Groupselect
+\* -------------------------------------------*/
+
+.table_group_select_users {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px #dedede;
+  display: inline-block;
+  min-height: 145px;
+  min-width: 65px !important;
+  padding: 9px 3px 7px 6px !important;
+  text-align: center;
+  vertical-align: top;
+  word-break: break-all;
+  margin-bottom: 10px;
+}
+
+.table_group_select_users .userpicture-flag {
+  margin-left: 0;
+}
+
+.table_group_select_users a:nth-child(even) {
+  margin-left: 0 !important;
+}
+
+.table_group_select_users img {
+  border-radius: 20px;
+  margin: 0;
+}
+
+.mod_groupselect .c3 span, .mod_groupselect .c3 a {
+    white-space: normal !important;
+}
+
+@media screen and (max-width: 475px) {
+  .table_group_select_users img {
+    display: none;
+  }
+
+  #page-mod-groupselect-view .c1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .table_group_select_users {
+    display: block;
+    min-height: 0;
+    width: 80% !important;
+  }
+}

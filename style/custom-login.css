@@ -1,0 +1,332 @@
+/* -------------------------------------------*\
+Legend theme
+
+@package    theme_legend
+@copyright  2017 GetSmarter {@link http://www.getsmarter.co.za}
+@license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+Contents
+    * Header
+    * Content
+    * login intro
+    * Login box
+    * Login bottom
+
+\* -------------------------------------------*/
+
+#page-login-index {
+    background: #2f2f2f;
+}
+
+#page-login-index #page-header {
+    display: none;
+}
+
+.navbar .navbar-inner ul.nav > li > p {
+    height: 45px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: [[setting:themenavcolor]];
+}
+
+.navbar .navbar-inner ul.nav > li > p.notloggedin {
+    height: auto;
+    padding-left: 20px;
+}
+
+#page-login-index #region-main .box,
+#page-login-index #region-main h1,
+#page-login-index #region-main h2,
+#page-login-index #region-main h3,
+#page-login-index #region-main p {
+    color: [[setting:login_text_color]];
+}
+
+#page-login-index #page {
+    background: transparent;
+}
+
+#page-login-index #page-wrapper {
+    background-color: #3F4141;
+    background: transparent;
+    background: [[setting:login_background_image]] repeat 50% 0%;
+    background-size: 100%;
+    max-width: none;
+}
+
+@media only screen and (max-width: 900px) {
+    #page-login-index #page > section {
+        margin-top: 0px;
+    }
+}
+
+#page-login-index #page .bg-video {
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+#page-login-index a.logo {
+    background-image: [[setting:login_logo]];
+    background-size: [[setting:login_logo_width]] [[setting:login_logo_height]];
+    width: [[setting:login_logo_width]];
+    height: [[setting:login_logo_height]];
+    display: block;
+    margin: 0px auto;
+}
+
+#page-login-index a.textlogo {
+    width: [[setting:login_logo_width]];
+    height: [[setting:login_logo_height]];
+    display: block;
+    margin: 0px auto;
+    font-size: [[setting:login_logo_height]];
+    text-align: center;
+}
+
+#region-logo,
+#region-intro,
+#region-main,
+#region-bottom {
+    margin: 0px;
+    padding: 0px;
+}
+
+#region-logo {
+    margin-top: 30px;
+}
+
+video#login-bg-video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#page-login-index #page-footer {
+    border-top: 4px solid #f42684;
+}
+
+@media only screen and (max-width: 768px) {
+    video#login-bg-video {
+        display: none;
+    }
+
+    #page-login-index #page .bg-video,
+    #page-login-index #page .bg-image {
+        background: [[setting:login_background_image_mobile]] repeat 50% 0%;
+    }
+}
+
+#page-login-index #page .bg-image{
+    max-width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+#region-intro .block,
+#region-intro .login-message,
+#region-bottom .login-message {
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0px auto;
+}
+
+#region-intro .block .header {
+    display: none;
+}
+
+#region-intro .block .content,
+#region-intro .login-message .content,
+#region-bottom .login-message .content {
+    text-align: center;
+    padding: 0px;
+}
+
+#region-intro h1,
+#region-intro h2,
+#region-intro h3,
+#region-intro p {
+    color: [[setting:login_text_color]];
+}
+
+.loginbox {
+    background: [[setting:login_box_background_color]];
+    max-width: 600px;
+    min-width: 300px;
+    margin: 15px auto;
+}
+
+.loginbox.twocolumns {
+    max-width: 1200px;
+    margin: 15px auto;
+}
+
+.loginbox > div > h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: [[setting:login_box_header_display]];
+}
+
+.loginbox .loginsub {
+    border-top: [[setting:login_box_header_border]] [[setting:themecolor]];
+}
+
+.loginbox .subcontent,
+.signuppanel .subcontent {
+    padding: 10px 50px;
+    margin: 0px;
+    text-align: left;
+}
+
+.loginbox .rememberpass,
+.loginbox .loginform .form-label {
+    color: [[setting:login_text_color]];
+    text-align: left;
+}
+
+.loginbox .loginform .form-input {
+    float: none;
+    width: 100%;
+}
+
+.loginbox .loginform .form-input input {
+    width: 98%;
+    border-radius: 0px;
+    box-shadow: none;
+    background: [[setting:login_box_input_background_color]];
+    margin: 10px 0px 30px;
+    height: 25px;
+}
+
+.loginbox .loginform .form-input input:focus {
+    border: 1px solid [[setting:themecolor]];
+}
+
+.loginbox #loginbtn {
+    margin: 20px 0px;
+    padding: 6px 30px;
+    text-transform: uppercase;
+}
+
+.loginbox .guestsub {
+    margin: 0px;
+    padding: 0px 50px 35px 50px;
+}
+
+.loginbox .guestsub input[type=submit] {
+    margin: 0px;
+}
+
+.forgetpass a {
+    color: [[setting:login_text_color]];
+}
+
+.loginerrors {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 7px 10px;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    margin: 0px 2% 10px 0px;
+}
+
+.loginpanel .error {
+    color: #7d7d7d;
+}
+
+.signuppanel {
+    color: [[setting:login_text_color]];
+}
+
+.alert-error{
+    text-align: center;
+}
+
+#region-bottom h1,
+#region-bottom h2,
+#region-bottom h3,
+#region-bottom p,
+#region-bottom a {
+    color: [[setting:login_text_color]];
+}
+
+#page-login-index #notice {
+    color: [[setting:login_text_color]];
+    text-align: center;
+}
+
+#page-login-index #notice p {
+    margin: 30px auto;
+}
+
+.login-message h2, .login-message a, .login-message p {
+    color: #ffffff;
+}
+
+#region-intro .block, #region-intro .login-message, #region-bottom .login-message {
+    margin-top: 20px;
+}
+
+#page-login-index .card {
+    background: none;
+    border: none;
+    padding: 10px 50px;
+}
+
+#page-login-index .card .card-title h2 {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #636363;
+    line-height: 27px;
+    padding: 12px 30% 12px 18px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+    text-align: left
+}
+
+#page-login-index .card label {
+    color:#fff;
+    margin-top: 10px;
+}
+
+#page-login-index .forgetpass {
+    color:#fff;
+}
+
+#page-login-index input {
+    line-height: 25px;
+}
+
+.m-y-3 {
+    margin-top: 0rem!important;
+    margin-bottom: 0rem!important;
+}
+
+#page-login-index .forgetpass p a {
+    color: #fff;
+}
+
+#page-login-index button[type="submit"] {
+    margin-left: -15px !important;
+}
+
+#page-login-index button[type="submit"]:hover {
+    font-size: 14px !important;
+}
+@media only screen and (max-width: 500px){
+    #page-login-index #page-wrapper {
+        background: [[setting:login_background_image_mobile]];
+        background-repeat: no-repeat;
+        max-width: none;
+    }
+
+    #page-login-index a.logo {
+        background-size: 100% [[setting:login_logo_height]];
+        width: 100%;
+    }
+}
